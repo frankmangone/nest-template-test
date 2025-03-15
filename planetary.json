@@ -1,13 +1,35 @@
 {
   "modules": {
     "auth": {
-      "path": "src/authentication"
+      "path": "src/authentication",
+      "implementations": [
+        {
+          "name": "basic",
+          "description": "Basic authentication implementation"
+        }
+      ]
     },
     "email": {
-      "path": "src/email"
+      "path": "src/email",
+      "implementations": [
+        {
+          "name": "sendgrid",
+          "description": "Sendgrid implementation of email module"
+        }
+      ]
     },
     "relational-database": {
-      "path": "src/relational-database"
+      "path": "src/relational-database",
+      "implementations": [
+        {
+          "name": "prisma",
+          "description": "Relational database implementation using Prisma as the ORM of choice"
+        },
+        {
+          "name": "typeorm",
+          "description": "Relational database implementation using TypeORM as the ORM of choice"
+        }
+      ]
     }
   }
 }
