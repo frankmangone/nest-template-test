@@ -1,0 +1,9 @@
+{
+  "module": "authentication",
+  "implementations": [
+    {
+      "name": "basic",
+      "description": "Basic authentication implementation"
+    }
+  ]
+}

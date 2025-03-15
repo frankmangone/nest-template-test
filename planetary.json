@@ -1,0 +1,13 @@
+{
+  "modules": {
+    "auth": {
+      "path": "src/authentication"
+    },
+    "email": {
+      "path": "src/email"
+    },
+    "relational-database": {
+      "path": "src/relational-database"
+    }
+  }
+}

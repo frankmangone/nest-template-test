@@ -1,0 +1,13 @@
+{
+  "module": "relational-database",
+  "implementations": [
+    {
+      "name": "prisma",
+      "description": "Relational database implementation using Prisma as the ORM of choice"
+    },
+    {
+      "name": "typeorm",
+      "description": "Relational database implementation using TypeORM as the ORM of choice"
+    }
+  ]
+}
